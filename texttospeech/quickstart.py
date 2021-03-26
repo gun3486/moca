@@ -20,8 +20,6 @@ def run_quickstart():
 
     with open(output, "wb") as out:
         out.write(response.audio_content)
-        print('Audio content written to file "output.mp3"')
-
 
 if __name__ == "__main__":
     run_quickstart()
