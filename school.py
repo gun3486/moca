@@ -40,5 +40,5 @@ for dat in data:
     file_json.update({date : menu})
     
 ##Json 생성
-with open('menu.json', 'w', encoding='utf-8') as outfile:
+with open('schoolfoodmenu.json', 'w', encoding='utf-8') as outfile:
        json.dump(file_json, outfile, sort_keys = False, indent=4, ensure_ascii=0)
