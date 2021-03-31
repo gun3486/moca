@@ -38,6 +38,7 @@ for dat in data:
     if not menu:
         menu="None"
     file_json.update({date : menu})
+
     
 ##Json 생성
 with open('schoolfoodmenu.json', 'w', encoding='utf-8') as outfile:
