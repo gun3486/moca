@@ -26,7 +26,7 @@ data=rex.findall(data)
 file_json={}
 for dat in data:
     date=re.findall(r"[0-3][0-9]",dat[0:2])
-    menu=dat[dat.find("[중식]<br />"):]
+    menu=dat[dat.find("[조식]<br />"):]
     if not date:
         date=dat[0:1]
         if date == "" or date == " ":
