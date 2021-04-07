@@ -1,10 +1,10 @@
 import requests, re, json, sys
 
 try:
-    officeCode=sys.argv[1] ## 교육청 코드
-    schulCode=sys.argv[2] ## 학교 고유코드
-    schulCrseCode=sys.argv[3] ## 학교 분류코드 (고등학교, 중학교, 초등학교)
-    schulKndScCode="0" + str(sys.argv[3]) ## 학교 분류코드
+    officeCode=sys.argv[1] ## 교육청 코드 "stu.gen.go.kr"
+    schulCode=sys.argv[2] ## 학교 고유코드 "F100000120"
+    schulCrseCode=sys.argv[3] ## 학교 분류코드 (고등학교, 중학교, 초등학교) "4"
+    schulKndScCode="0" + str(sys.argv[3]) ## "202104"
     schYm=sys.argv[4]
 except:
     print("""!!ERROR.... 
