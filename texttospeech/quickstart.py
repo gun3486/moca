@@ -1,7 +1,6 @@
 def run_quickstart():
     from google.cloud import texttospeech
     client = texttospeech.TextToSpeechClient()
-
     sentence = input('말하고싶은 텍스트를 입력하시오.')
 
     synthesis_input = texttospeech.SynthesisInput(text = sentence)
